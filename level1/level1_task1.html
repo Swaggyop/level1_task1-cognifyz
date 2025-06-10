@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Internship Task 1 - Simple HTML5/CSS Webpage with form and navigation menu. Created for Cognifyz Technologies Internship Program." />
+  <meta name="keywords" content="HTML5, CSS, Internship, Web Development, Cognifyz Technologies, Task 1" />
+  <meta name="author" content="Your Name" />
+  <title>Internship Task 1 | Cognifyz Technologies</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, nav, main, footer {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    header {
+      background-color: #4b0082;
+      color: white;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 0;
+      background-color: #eee;
+    }
+    nav a {
+      text-decoration: none;
+      color: #4b0082;
+      font-weight: bold;
+    }
+    section {
+      margin-top: 30px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px 0;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input[type="text"] {
+      padding: 10px;
+      width: 100%;
+      max-width: 300px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #4b0082;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 40px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Internship Webpage</h1>
+    <p>Created for Cognifyz Technologies Web Development Internship</p>
+    <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#form">Form</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  </header>
+
+  
+  <main>
+    <section id="about">
+      <article>
+        <h2>About This Page</h2>
+        <p>This is a simple, semantic HTML5 webpage built as part of Level 1 - Task 1 for the Web Development Internship program at Cognifyz Technologies.</p>
+        <img src="https://media.licdn.com/dms/image/v2/D4D0BAQFOzUIOz1Yb-A/company-logo_200_200/company-logo_200_200/0/1687705347448/cognifyz_techonologies_logo?e=1754524800&v=beta&t=My_2hJNe6aN3RyH4t07eHU_aZ5LqYCVumRto6xr3zA4" alt="Sample Project Image" />
+      </article>
+    </section>
+
+    <section id="form">
+      <article>
+        <h2>Submit Your Name</h2>
+        <form action="#" method="post">
+          <label for="name">Enter your name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+          <button type="submit">Submit</button>
+        </form>
+      </article>
+    </section>
+
+    <section id="contact">
+      <article>
+        <h2>Contact</h2>
+        <p>If you have any questions, feel free to reach out via the official Cognifyz channels listed below.</p>
+        <ul>
+          <li>Email: <a href="mailto:contact@cognifyz.com">contact@cognifyz.com</a></li>
+          <li>Website: <a href="http://www.cognifyz.com/" target="_blank">www.cognifyz.com</a></li>
+          <li>Instagram: <a href="https://www.instagram.com/cognifyz_tech/" target="_blank">@cognifyz_tech</a></li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cognifyz Technologies Internship Project | Developed by Your Saswat Kumar</p>
+  </footer>
+
+</body>
+</html>
